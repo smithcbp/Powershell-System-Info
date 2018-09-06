@@ -9,3 +9,6 @@ Ticket Creation relies on Solarwinds Web Help Desk API. Guide here:
 http://www.solarwinds.com/documentation/webhelpdesk/docs/whd_api_12.1.0/web%20help%20desk%20api.html
 
 When a ticket is created, it is posted to a dedicated Slack Channel. Guide Here: https://api.slack.com/
+
+![image](https://user-images.githubusercontent.com/38805678/45177466-8ac77f00-b1bf-11e8-8291-9e43a5efe7c1.png)
+
