@@ -1,0 +1,40 @@
+{
+    "reportDateUtc":  "",
+    "room":  "",
+    "emailClient":  true,
+    "emailTech":  true,
+    "emailTechGroupLevel":  false,
+    "emailGroupManager":  false,
+    "emailCc":  false,
+    "ccAddressesForTech":  "",
+    "emailBcc":  false,
+    "bccAddresses":  "",
+    "subject":  "IT Support Request",
+    "detail":  "",
+    "assignToCreatingTech":  false,
+    "problemtype":  {
+                        "type":  "ProblemType",
+                        "id":  "50"
+                    },
+    "sendEmail":  false,
+    "location":  {
+                     "type":  "Location",
+                     "id":  30
+                 },
+    "department":  {
+                       "type":  "Department",
+                       "id":  32
+                   },
+    "clientReporter":  {
+                           "type":  "Client",
+                           "id":  ""
+                       },
+    "statustype":  {
+                       "type":  "StatusType",
+                       "id":  1
+                   },
+    "prioritytype":  {
+                         "type":  "PriorityType",
+                         "id":  4
+                     }
+}
