@@ -12,3 +12,6 @@ When a ticket is created, it is posted to a dedicated Slack Channel. Guide Here:
 
 ![image](https://user-images.githubusercontent.com/38805678/45177466-8ac77f00-b1bf-11e8-8291-9e43a5efe7c1.png)
 
+![image](https://user-images.githubusercontent.com/38805678/45177523-afbbf200-b1bf-11e8-8bef-c6907dd25556.png)
+
+
