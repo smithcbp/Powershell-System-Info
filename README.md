@@ -4,7 +4,7 @@
     .SYNOPSIS
     A tool to assist users in providing information to the helpdesk.
     .DESCRIPTION
-    This tool helps users help the helpdesk. It gathers all relevent system information and Teamviewer ID and displays it to the users. 
+    This tool helps users help the helpdesk. It gathers all relevent system information and Teamviewer ID and displays it to the    users. 
 	There are also a number of added tools for troubleshooting network issues, changing default devices, and creating help desk tickets. 
 	When creating a help desk ticket, the user is prompted with an easy to use ui to enter their trouble info.
     .NOTES
