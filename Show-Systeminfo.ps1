@@ -640,29 +640,20 @@ Function test-network
 		#logging
 		Add-Content -Path $logDir -Value "$date - $Env:Username - $Env:ComputerName - Ran Show-SystemInfo.ps1 v$ver - Network Fix" -Force -ErrorAction SilentlyContinue
 		
-		# Flush the DNS Cache  
-		
 		$ConsoleTextBox.Text = "Attempting to fix network issues. This may take a couple of minutes." -join [Environment]::NewLine
 		
 		ipconfig /flushDns | Out-Null
-		
-		# Release the Ip-AdDress 
-		
+			
 		ipconfig /release | Out-Null
-		
-		# Sleep for 2 Seconds 
-		
+			
 		Start-Sleep 2
-		
-		# Renew the Ip-Address 
-		
+			
 		ipconfig /renew | Out-Null
 		
-		# Register the DNS 
 		ipconfig /registerdns | Out-Null
 		$ConsoleTextBox.Text = "Network repair complete. If you continue to have issues please contact the Help Desk" -join [Environment]::NewLine
 	}
-	
+
 	
 	Function copyStuff
 	{
